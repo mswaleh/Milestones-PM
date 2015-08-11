@@ -8,6 +8,13 @@
         <value>The alias provided in subject line did not match a milestone alias in Salesforce.</value>
     </labels>
     <labels>
+        <fullName>AUTH_URL</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>AUTH_URL</shortDescription>
+        <value>https://login.salesforce.com/services/oauth2/authorize?</value>
+    </labels>
+    <labels>
         <fullName>AllItems</fullName>
         <language>en_US</language>
         <protected>true</protected>
@@ -55,6 +62,13 @@
         <protected>true</protected>
         <shortDescription>Blocked_Tasks</shortDescription>
         <value>Blocked Tasks</value>
+    </labels>
+    <labels>
+        <fullName>CALLBACK_URL</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>CALLBACK_URL</shortDescription>
+        <value>https://swalehji-salesapp-developer-edition.ap1.force.com/salesapp</value>
     </labels>
     <labels>
         <fullName>Calendar</fullName>
@@ -141,6 +155,66 @@
         <value>. Current export would be $1 characters long. Please edit your project and try again</value>
     </labels>
     <labels>
+        <fullName>Datatables_Bootstrap_js_css</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Datatables Bootstrap js/css</shortDescription>
+        <value>https://cdn.datatables.net/plug-ins/1.10.7/integration/bootstrap/3/dataTables.bootstrap.css
+
+https://cdn.datatables.net/plug-ins/1.10.7/integration/bootstrap/3/dataTables.bootstrap.js</value>
+    </labels>
+    <labels>
+        <fullName>Datatables_CDN</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Datatables CDN</shortDescription>
+        <value>&lt;!-- DataTables CSS --&gt;
+&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;//cdn.datatables.net/1.10.7/css/jquery.dataTables.css&quot;&gt;
+  
+&lt;!-- jQuery --&gt;
+&lt;script type=&quot;text/javascript&quot; charset=&quot;utf8&quot; src=&quot;//code.jquery.com/jquery-1.10.2.min.js&quot;&gt;&lt;/script&gt;
+  
+&lt;!-- DataTables --&gt;
+&lt;script type=&quot;text/javascript&quot; charset=&quot;utf8&quot; src=&quot;//cdn.datatables.net/1.10.7/js/jquery.dataTables.js&quot;&gt;&lt;/script&gt;</value>
+    </labels>
+    <labels>
+        <fullName>Datatables_Internationalization</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Datatables Internationalization</shortDescription>
+        <value>{
+    &quot;emptyTable&quot;:     &quot;No data available in table&quot;,
+    &quot;info&quot;:           &quot;Showing _START_ to _END_ of _TOTAL_ entries&quot;,
+    &quot;infoEmpty&quot;:      &quot;Showing 0 to 0 of 0 entries&quot;,
+    &quot;infoFiltered&quot;:   &quot;(filtered from _MAX_ total entries)&quot;,
+    &quot;infoPostFix&quot;:    &quot;&quot;,
+    &quot;decimal&quot;: &quot;,&quot;,
+    &quot;thousands&quot;:      &quot;,&quot;,
+    &quot;lengthMenu&quot;:     &quot;Show _MENU_ entries&quot;,
+    &quot;loadingRecords&quot;: &quot;Loading...&quot;,
+    &quot;processing&quot;:     &quot;Processing...&quot;,
+    &quot;search&quot;:         &quot;Search:&quot;,
+    &quot;zeroRecords&quot;:    &quot;No matching records found&quot;,
+    &quot;paginate&quot;: {
+        &quot;first&quot;:      &quot;First&quot;,
+        &quot;last&quot;:       &quot;Last&quot;,
+        &quot;next&quot;:       &quot;Next&quot;,
+        &quot;previous&quot;:   &quot;Previous&quot;
+    },
+    &quot;aria&quot;: {
+        &quot;sortAscending&quot;:  &quot;: activate to sort column ascending&quot;,
+        &quot;sortDescending&quot;: &quot;: activate to sort column descending&quot;
+    }
+}</value>
+    </labels>
+    <labels>
+        <fullName>Datatables_Internationalization_URL</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Datatables Internationalization URL</shortDescription>
+        <value>https://cdn.datatables.net/plug-ins/9dcbecd42ad/i18n/English.json</value>
+    </labels>
+    <labels>
         <fullName>DidNotMatch</fullName>
         <language>en_US</language>
         <protected>true</protected>
@@ -148,11 +222,32 @@
         <value>) did not match any milestone.</value>
     </labels>
     <labels>
+        <fullName>DocuSign_Auth_Header</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>DocuSign_Auth_Header</shortDescription>
+        <value>&lt;DocuSignCredentials&gt;&lt;Username&gt;greatcivilian@gmail.com&lt;/Username&gt;&lt;Password&gt;accenture10&lt;/Password&gt;&lt;IntegratorKey&gt;ACCE-7bfa3eef-085e-4dae-b427-0531b6ae328f&lt;/IntegratorKey&gt;&lt;/DocuSignCredentials&gt;</value>
+    </labels>
+    <labels>
+        <fullName>DocuSign_URL</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>DocuSign_URL</shortDescription>
+        <value>https://demo.docusign.net/restapi/v1</value>
+    </labels>
+    <labels>
         <fullName>EnterAcommand</fullName>
         <language>en_US</language>
         <protected>true</protected>
         <shortDescription>EnterAcommand</shortDescription>
         <value>Enter a command in the form &apos;alias --- description&apos;</value>
+    </labels>
+    <labels>
+        <fullName>EnvDocsResponse</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>EnvDocsResponse</shortDescription>
+        <value>{  &quot;envelopeId&quot;:&quot;String content&quot;,   &quot;envelopeDocuments&quot;:[{     &quot;documentId&quot;:&quot;String content&quot;,     &quot;name&quot;:&quot;String content&quot;,     &quot;type&quot;:&quot;String content&quot;,     &quot;uri&quot;:&quot;String content&quot;   }] }</value>
     </labels>
     <labels>
         <fullName>Expenses</fullName>
@@ -209,6 +304,13 @@
         <protected>true</protected>
         <shortDescription>FullView</shortDescription>
         <value>[Full View]</value>
+    </labels>
+    <labels>
+        <fullName>GetStatusResponse</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>GetStatusResponse</shortDescription>
+        <value>{   &quot;envelopeStatusChanges&quot;:[{     &quot;envelopeId&quot;:&quot;String content&quot;,     &quot;status&quot;:&quot;String content&quot;,     &quot;statusChangedDateTime&quot;:&quot;String content&quot;,     &quot;uri&quot;:&quot;String content&quot;   }],   &quot;resultSetSize&quot;:2147483647 }</value>
     </labels>
     <labels>
         <fullName>GettingHelp</fullName>
@@ -373,6 +475,13 @@
         <value>Invalid Version. This project was exported from a different version(</value>
     </labels>
     <labels>
+        <fullName>KEY</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>KEY</shortDescription>
+        <value>3MVG9Y6d_Btp4xp6UOqMjB12TxFV_3oh.AopbBunJ.SH91VsBksh90w_RH0SvXSFOjBA6W7DKTjtayMqDeR.0</value>
+    </labels>
+    <labels>
         <fullName>LateTasks</fullName>
         <language>en_US</language>
         <protected>true</protected>
@@ -385,6 +494,20 @@
         <protected>true</protected>
         <shortDescription>&lt;a href=&quot;http://blogs.developerforce.com/labs/2011/08/howto-contribute-to-milest</shortDescription>
         <value>&lt;a href=&quot;http://blogs.developerforce.com/labs/2011/08/howto-contribute-to-milestones-pm-code-not-required-opensource.html&quot;&gt;Learn more&lt;/a&gt;.</value>
+    </labels>
+    <labels>
+        <fullName>Loading</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Loading</shortDescription>
+        <value>Loading...</value>
+    </labels>
+    <labels>
+        <fullName>LoginResponse</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>LoginResponse</shortDescription>
+        <value>{   &quot;loginAccounts&quot;: [{     &quot;accountId&quot;: &quot;532&quot;,     &quot;baseUrl&quot;: &quot;http://localhost/restapi/v0.1/532&quot;,     &quot;email&quot;: &quot;m.rosey@thomasind.com&quot;,     &quot;isDefault&quot;: true,     &quot;name&quot;: &quot;Thomas Industries&quot;,     &quot;siteDescription&quot;: &quot;Rosey Local Dev&quot;,     &quot;userId&quot;: &quot;e829b9d7-e9ab-4482-9158-1863ad39646c&quot;,     &quot;userName&quot;: &quot;Mike Rosey&quot;     &quot;preferredAPIVersion&quot;: &quot;v1&quot;,     &quot;supportedAPIVersions&quot;: [&quot;v1&quot;]   }] }</value>
     </labels>
     <labels>
         <fullName>Logs</fullName>
@@ -1998,6 +2121,13 @@
         <value>^[ ]*((([Ff][Ww][Dd])|([Rr][Ee]))[ ]*:[ ]*)*</value>
     </labels>
     <labels>
+        <fullName>SECRET</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>SECRET</shortDescription>
+        <value>954220219769423313</value>
+    </labels>
+    <labels>
         <fullName>SalesforceDMLError</fullName>
         <language>en_US</language>
         <protected>true</protected>
@@ -2059,6 +2189,13 @@
         <protected>true</protected>
         <shortDescription>Setup A New Email Address.</shortDescription>
         <value>Setup A New Email Address.</value>
+    </labels>
+    <labels>
+        <fullName>SignTemplateResponse</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>SignTemplateResponse</shortDescription>
+        <value>{   &quot;envelopeId&quot;:&quot;String content&quot;,   &quot;status&quot;:&quot;String content&quot;,   &quot;statusDateTime&quot;:&quot;String content&quot;,   &quot;uri&quot;:&quot;String content&quot; }</value>
     </labels>
     <labels>
         <fullName>StartCreatingYourFirstProject</fullName>
@@ -2124,6 +2261,13 @@
         <value>Sunday</value>
     </labels>
     <labels>
+        <fullName>TOKEN_URL</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>TOKEN_URL</shortDescription>
+        <value>https://login.salesforce.com/services/oauth2/token</value>
+    </labels>
+    <labels>
         <fullName>TaskNotFound</fullName>
         <language>en_US</language>
         <protected>true</protected>
@@ -2150,6 +2294,13 @@
         <protected>true</protected>
         <shortDescription>TasksCalendar</shortDescription>
         <value>Tasks</value>
+    </labels>
+    <labels>
+        <fullName>TemplatesResponse</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>TemplatesResponse</shortDescription>
+        <value>{   &quot;envelopeTemplates&quot;:[{     &quot;description&quot;:&quot;String content&quot;,     &quot;lastModified&quot;:&quot;String content&quot;,     &quot;name&quot;:&quot;String content&quot;,     &quot;pageCount&quot;:2147483647,     &quot;password&quot;:&quot;String content&quot;,     &quot;shared&quot;:&quot;String content&quot;,     &quot;templateId&quot;:&quot;String content&quot;,     &quot;uri&quot;:&quot;String content&quot;   }] }</value>
     </labels>
     <labels>
         <fullName>TheProjectCannotBeNull</fullName>
@@ -2264,6 +2415,13 @@
         <value>Top Level Milestone has successors and cannot be moved.  Redirect those successors and try again.</value>
     </labels>
     <labels>
+        <fullName>TranslationMessage</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>TranslationMessage</shortDescription>
+        <value>Please add a file from Documents tab in &quot;Translation STF Files&quot; folder. Files in this folder will appear in the following dropdown. After processing the file you can manipulate the translations.&lt;br/&gt;&lt;center&gt;OR&lt;/center&gt; You can directly Retrieve Existing Translations to work on.</value>
+    </labels>
+    <labels>
         <fullName>Tuesday</fullName>
         <language>en_US</language>
         <protected>true</protected>
@@ -2304,6 +2462,20 @@
         <protected>true</protected>
         <shortDescription>Welcome to Milestones PM - Project Management</shortDescription>
         <value>Welcome to Milestones PM - Project Management</value>
+    </labels>
+    <labels>
+        <fullName>X3_Months</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>3 Months</shortDescription>
+        <value>3 Months</value>
+    </labels>
+    <labels>
+        <fullName>YES</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>YES</shortDescription>
+        <value>YES</value>
     </labels>
     <labels>
         <fullName>YouCanNowGoTo</fullName>

@@ -9,6 +9,10 @@
         <name>ALiasNotFound</name>
     </customLabels>
     <customLabels>
+        <label><!-- AUTH_URL --></label>
+        <name>AUTH_URL</name>
+    </customLabels>
+    <customLabels>
         <label><!-- AllItems --></label>
         <name>AllItems</name>
     </customLabels>
@@ -35,6 +39,10 @@
     <customLabels>
         <label><!-- Blocked_Tasks --></label>
         <name>Blocked_Tasks</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- CALLBACK_URL --></label>
+        <name>CALLBACK_URL</name>
     </customLabels>
     <customLabels>
         <label><!-- Calendar --></label>
@@ -85,12 +93,40 @@
         <name>CurrentExport</name>
     </customLabels>
     <customLabels>
+        <label><!-- Datatables Bootstrap js/css --></label>
+        <name>Datatables_Bootstrap_js_css</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Datatables CDN --></label>
+        <name>Datatables_CDN</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Datatables Internationalization --></label>
+        <name>Datatables_Internationalization</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Datatables Internationalization URL --></label>
+        <name>Datatables_Internationalization_URL</name>
+    </customLabels>
+    <customLabels>
         <label><!-- DidNotMatch --></label>
         <name>DidNotMatch</name>
     </customLabels>
     <customLabels>
+        <label><!-- DocuSign_Auth_Header --></label>
+        <name>DocuSign_Auth_Header</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- DocuSign_URL --></label>
+        <name>DocuSign_URL</name>
+    </customLabels>
+    <customLabels>
         <label><!-- EnterAcommand --></label>
         <name>EnterAcommand</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- EnvDocsResponse --></label>
+        <name>EnvDocsResponse</name>
     </customLabels>
     <customLabels>
         <label><!-- Expenses --></label>
@@ -123,6 +159,10 @@
     <customLabels>
         <label><!-- FullView --></label>
         <name>FullView</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- GetStatusResponse --></label>
+        <name>GetStatusResponse</name>
     </customLabels>
     <customLabels>
         <label><!-- Getting Help --></label>
@@ -217,12 +257,24 @@
         <name>InvalidVersion</name>
     </customLabels>
     <customLabels>
+        <label><!-- KEY --></label>
+        <name>KEY</name>
+    </customLabels>
+    <customLabels>
         <label><!-- Late Tasks --></label>
         <name>LateTasks</name>
     </customLabels>
     <customLabels>
         <label><!-- &lt;a href=&quot;http://blogs.developerforce.com/labs/2011/08/howto-contribute-to-milest --></label>
         <name>LearnMore</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Loading --></label>
+        <name>Loading</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- LoginResponse --></label>
+        <name>LoginResponse</name>
     </customLabels>
     <customLabels>
         <label><!-- Logs --></label>
@@ -1145,6 +1197,10 @@
         <name>RegexFwdRe</name>
     </customLabels>
     <customLabels>
+        <label><!-- SECRET --></label>
+        <name>SECRET</name>
+    </customLabels>
+    <customLabels>
         <label><!-- SalesforceDMLError --></label>
         <name>SalesforceDMLError</name>
     </customLabels>
@@ -1179,6 +1235,10 @@
     <customLabels>
         <label><!-- Setup A New Email Address. --></label>
         <name>SetupNewEmailAddress</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- SignTemplateResponse --></label>
+        <name>SignTemplateResponse</name>
     </customLabels>
     <customLabels>
         <label><!-- Start creating your first project. --></label>
@@ -1217,6 +1277,10 @@
         <name>Sunday</name>
     </customLabels>
     <customLabels>
+        <label><!-- TOKEN_URL --></label>
+        <name>TOKEN_URL</name>
+    </customLabels>
+    <customLabels>
         <label><!-- TaskNotFound --></label>
         <name>TaskNotFound</name>
     </customLabels>
@@ -1231,6 +1295,10 @@
     <customLabels>
         <label><!-- TasksCalendar --></label>
         <name>TasksCalendar</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- TemplatesResponse --></label>
+        <name>TemplatesResponse</name>
     </customLabels>
     <customLabels>
         <label><!-- The Project cannot be null. This is a critical error during import of XML. Pleas --></label>
@@ -1297,6 +1365,10 @@
         <name>TopLevelMilestoneHasSuccessors</name>
     </customLabels>
     <customLabels>
+        <label><!-- TranslationMessage --></label>
+        <name>TranslationMessage</name>
+    </customLabels>
+    <customLabels>
         <label><!-- Tuesday --></label>
         <name>Tuesday</name>
     </customLabels>
@@ -1319,6 +1391,14 @@
     <customLabels>
         <label><!-- Welcome to Milestones PM - Project Management --></label>
         <name>WelcomeToMilestonesPM</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- 3 Months --></label>
+        <name>X3_Months</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- YES --></label>
+        <name>YES</name>
     </customLabels>
     <customLabels>
         <label><!-- You can now go to your project summary page to see the sample project we install --></label>

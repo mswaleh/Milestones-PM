@@ -62,6 +62,7 @@
         <members>Milestone1_XML_Import_Utility</members>
         <members>Milestone1_XML_Import_Utility_Test</members>
         <members>Milestone1_repeatCon</members>
+        <members>MyClass</members>
         <name>ApexClass</name>
     </types>
     <types>
@@ -239,5 +240,5 @@
         <members>ja</members>
         <name>Translations</name>
     </types>
-    <version>23.0</version>
+    <version>33.0</version>
 </Package>
